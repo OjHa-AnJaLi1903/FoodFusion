@@ -84,15 +84,18 @@ Frontend 👉 http://localhost:3000
 ---
 
 ## 🧪 Available Scripts
-Command	Description
-npm start	Starts dev server (frontend or backend)
-npm run dev	Starts backend with Nodemon (if configured)
-npm run build	Builds React app for production
-npm test	Runs tests (if added)
+
+| Command           | Description                                    |
+|-------------------|------------------------------------------------|
+| `npm start`       | Starts dev server (frontend or backend)        |
+| `npm run dev`     | Starts backend with Nodemon (if configured)    |
+| `npm run build`   | Builds React app for production                |
+| `npm test`        | Runs tests (if added)                          |
 
 ---
 
 ## 📁 Folder Structure
+```
 FoodFusion/
 ├── client/ → React frontend
 │ ├── src/
@@ -105,6 +108,7 @@ FoodFusion/
 │ ├── index.js
 │ └── package.json
 └── README.md
+```
 
 ---
 
