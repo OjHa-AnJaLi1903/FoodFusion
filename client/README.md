@@ -94,16 +94,16 @@ npm test	Runs tests (if added)
 
 ## 📁 Folder Structure
 FoodFusion/
-├── client/      
-│   ├── src/
-│   ├── public/
-│   └── package.json
-├── server/      
-│   ├── db/
-│   ├── models/
-│   ├── routers/
-│   ├── index.js
-│   └── package.json
+├── client/ → React frontend
+│ ├── src/
+│ ├── public/
+│ └── package.json
+├── server/ → Node.js + Express backend
+│ ├── db/
+│ ├── models/
+│ ├── routers/
+│ ├── index.js
+│ └── package.json
 └── README.md
 
 ---
