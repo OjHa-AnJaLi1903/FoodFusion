@@ -9,7 +9,7 @@ const auth = require("../middleware/authMid");
 
 router.post("/register", async (req, res) => {
   const { name, email, password, address } = req.body;
-  const admin = email === "sahilchopade233@gmail.com" ? true : false;
+  const admin = email === "ojhaanjali2004@gmail.com" ? true : false;
   const validEmail = emailValidator.validate(email);
   if (!validEmail) {
     return res.json({ msg: "This Email is Not Valid!!", status: false });
